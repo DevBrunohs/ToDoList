@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+    background: rgb(115, 0, 255);
+    background: linear-gradient(96deg, rgba(115, 0, 255, 1) 0%, rgba(158, 0, 255, 1) 50%, rgba(227, 0, 255, 1) 100%);
+}
+
+#titulo {
+    color: purple;
+    padding-left: 150px;
+
+
+}
+
+#button-add {
+    background: blueviolet;
+    border-radius: 5px;
+    height: 35px;
+    width: 100px;
+    border: none;
+    padding: 0 12px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    float: none;
+    font-weight: 560;
+
+}
+
+#button-add:hover {
+    opacity: 0.8;
+}
+
+#button-add:active {
+    opacity: 0.6;
+}
+
+
+.container {
+    background: white;
+    width: 541px;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 20px;
+}
+
+#input {
+    width: 400px;
+    height: 32px;
+    border: 2px solid rgba(175, 174, 174, 0.87);
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+#tarefas {
+    width: 100%;
+    list-style: none;
+    margin-top: 30px;
+
+}
+
+.listinhas {
+    border-radius: 5px;
+    background-color: rgb(241, 241, 241);
+    box-shadow: 24px 8px 10px -4px rgba(0, 0, 0, 0.20);
+    padding: 20px 45px;
+    cursor: pointer;
+    position: relative;
+    margin-top: 20px;
+
+}
+
+.nome-lista {
+    color: black;
+    font-size: 15px;
+    font-weight: 550;
+}
+
+.botao-deletar {
+    border: none;
+    background: transparent;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 40px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.7s ease-in-out;
+}
+
+.fa-trash-alt {
+    color: rgb(42, 88, 42)
+}
+
+.botao-concluido {
+    border: none;
+    background: transparent;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 40px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.7s ease-in-out;
+}
+
+.fa-check-circle {
+    color: rgb(255, 0, 0);
+}
+
+.listinhas:hover .botao-deletar {
+    opacity: 1;
+}
+
+.listinhas:hover .botao-concluido {
+    opacity: 1;
+}
+
+.concluir{
+    background-color: rgb(132, 221, 132);
+    text-decoration: line-through;
+}
