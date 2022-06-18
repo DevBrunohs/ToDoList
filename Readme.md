@@ -1,9 +1,9 @@
-<h1 align="center">To Do List</h1>
+ 
+<h1 align="center"> 📕 To Do List</h1>
 
 <p align="center">Meu primeiro projeto como desenvolvedor</p>
 
 <p align="center">
- <a href="#objetivo">Objetivo</a> •
   <a href="#Como usar">Como usar</a> •
   <a href="#Descricao">Descrição</a> •
  <a href="#tecnologias">Tecnologias</a> •  
@@ -11,12 +11,12 @@
  <a href="#autor">Autor</a>
 </p>
 
-## Objetivo
+## 🔍 Objetivo
 ============
 
 O objetivo deste projeto foi para treinar meus conheicmentos e me tornar um desenvolvedor, através dele eu me apaixonei por programação.
 
-## Descrição
+## 📎 Descrição
 ============
 
 O projeto foi criado para o usuário anotar as tarefas, e quando completá-las, a mesma será marcada em verde.
@@ -25,7 +25,7 @@ Qualquer tarefa pode ser escrita, dependerá da imaginação do usuário.
 
 
 
-## Como usar
+## ✋ Como usar
 ============
 
 Ao entrar no site, você verá uma caixa com um título escrito "Lista de Tarefas"; ao clicar em adicionar caso você não tenha escrito nada, irá retornar
@@ -46,7 +46,7 @@ Experimente passar o mouse em cima e veja a animação do botões do lado direit
 
 
 
-## Tecnologias
+## 💻 Tecnologias
 ============ 
 
 <div>
@@ -55,13 +55,13 @@ Experimente passar o mouse em cima e veja a animação do botões do lado direit
 <img height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"/>
 </div>
 
-## Licença
+## 🌎 Licença
 ============
 
 <img  width="150" src="https://img.shields.io/github/license/mashape/apistatus?color=gree&style=plastic" />
 
 
-## Autor
+## 🧔 Autor
 ============
 
 <a href="https://github.com/DevBrunohs"> Bruno Henrique</a>
